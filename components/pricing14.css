@@ -1,0 +1,229 @@
+.pricing14-pricing23 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: #000000;
+}
+ 
+.pricing14-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-section-title {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.pricing14-text10 {
+  text-align: center;
+}
+ 
+.pricing14-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-text11 {
+  text-align: center;
+}
+ 
+.pricing14-text12 {
+  text-align: center;
+}
+ 
+.pricing14-container {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  height: 417px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-bottom: var(--dl-layout-space-unit);
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.pricing14-column1 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.pricing14-price1 {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-price2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-text13 {
+  font-size: 48px;
+}
+ 
+.pricing14-column2 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.pricing14-price3 {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-price4 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing14-text14 {
+  font-size: 48px;
+}
+ 
+.pricing14-button {
+  width: 100%;
+  height: 42px;
+  text-decoration: none;
+}
+ 
+.pricing14-fragment1 {
+  display: contents;
+}
+ 
+.pricing14-text16 {
+  display: inline-block;
+}
+ 
+.pricing14-fragment2 {
+  display: contents;
+}
+ 
+.pricing14-text17 {
+  display: inline-block;
+}
+ 
+.pricing14-fragment3 {
+  display: contents;
+}
+ 
+.pricing14-text18 {
+  display: inline-block;
+}
+ 
+.pricing14-fragment4 {
+  display: contents;
+}
+ 
+.pricing14-text19 {
+  display: inline-block;
+}
+ 
+.pricing14-fragment5 {
+  display: contents;
+}
+ 
+.pricing14-text20 {
+  display: inline-block;
+}
+ 
+.pricing14-fragment6 {
+  display: contents;
+}
+ 
+.pricing14-text21 {
+  display: inline-block;
+}
+ 
+@media(max-width: 1600px) {
+  .pricing14-max-width {
+    height: 682px;
+  }
+  .pricing14-button {
+    color: #ffffff;
+    height: 44px;
+    border-color: #ffffff;
+    background-color: #350087;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .pricing14-pricing23 {
+    width: 1200px;
+    height: 973px;
+  }
+  .pricing14-column1 {
+    height: 442px;
+  }
+  .pricing14-column2 {
+    height: 454px;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .pricing14-container {
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .pricing14-max-width {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
